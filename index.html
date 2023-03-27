@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/imgs/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/styles/styles.css">
+    <title>Fylo data</title>
+</head>
+<body>
+    <main>
+        <section id="layout">
+            <div class="actions">
+                <img class="actions__logo" src="./assets/imgs/logo.svg" alt="Logo">
+                <div class="actions__img-container">
+                    <img class="actions__img" src="./assets/imgs/icon-document.svg" alt="document">
+                    <img class="actions__img" src="./assets/imgs/icon-folder.svg" alt="folder">
+                    <img class="actions__img" src="./assets/imgs/icon-upload.svg" alt="upload">
+                </div>
+            </div>
+            <div class="storage">
+                <p class="storage__total-space">
+                    You’ve used <span id="total-value">815</span> GB of your storage
+                </p>
+                <input type="range" name="" id="input-space" min="0" max="1000" value="815">
+                <div class="storage__spans">
+                    <span>0 GB</span>
+                    <span>1000 GB</span>
+                </div>
+                <div class="storage__left-space-container">
+                    <p class="storage__left-space">
+                        <span class="storage__left-space__item">1</span>
+                        <span class="storage__left-space__item">8</span>
+                        <span class="storage__left-space__item">5</span>
+                        GB Left
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
